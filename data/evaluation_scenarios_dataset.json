@@ -1,0 +1,1694 @@
+{
+  "temporal_consistency": [
+    {
+      "id": "conv_1751455882_4967",
+      "personality": "casual",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Nice to meet you! I'm Michael, 64 years old. I work in Berlin as a programmer.",
+          "timestamp": 1751455882.0977168,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Michael",
+              "age": 64,
+              "occupation": "programmer",
+              "location": "Berlin",
+              "hobbies": [
+                "cooking"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455883.0977178,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I had an important meeting a couple of months ago",
+          "timestamp": 1751455884.0977225,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "medium",
+            "time_reference": "a couple of months ago"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455885.0977237,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "Tell me what you remember about location.",
+          "timestamp": 1751455886.0977268,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "location",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455887.0977278,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "What do you know about my work?",
+          "timestamp": 1751455888.0977309,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "work",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455889.0977316,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097707",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "location"
+          },
+          {
+            "turn_index": 6,
+            "type": "memory_question",
+            "topic": "work"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_9784",
+      "personality": "professional",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hi, I'm Emma. I'm 62 years old and I work as a artist in Sydney.",
+          "timestamp": 1751455882.0977426,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Emma",
+              "age": 62,
+              "occupation": "artist",
+              "location": "Sydney",
+              "hobbies": [
+                "photography",
+                "reading",
+                "gaming"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455883.097744,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I had an important meeting this year",
+          "timestamp": 1751455884.0977488,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "medium",
+            "time_reference": "this year"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "I see. What else would you like to share?",
+          "timestamp": 1751455885.0977497,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "I started my job as a artist last week",
+          "timestamp": 1751455886.0977547,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "recent",
+            "time_reference": "last week"
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455887.097757,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "My trip to Toronto was last month",
+          "timestamp": 1751455888.0977633,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "travel",
+            "time_category": "medium",
+            "time_reference": "last month"
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455889.097764,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097735",
+        "num_turns": 8,
+        "memory_requirements": []
+      }
+    },
+    {
+      "id": "conv_1751455882_4252",
+      "personality": "friendly",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is David, I'm a teacher living in Madrid.",
+          "timestamp": 1751455882.0977736,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "David",
+              "age": 60,
+              "occupation": "teacher",
+              "location": "Madrid",
+              "hobbies": [
+                "dancing"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455883.0977752,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "My trip to New York was this year",
+          "timestamp": 1751455884.0977798,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "travel",
+            "time_category": "medium",
+            "time_reference": "this year"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455885.0977805,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "Tell me what you remember about location.",
+          "timestamp": 1751455886.097785,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "location",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455887.0977864,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "I went on a date two years ago",
+          "timestamp": 1751455888.097791,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "relationships",
+            "time_category": "distant",
+            "time_reference": "two years ago"
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "I see. What else would you like to share?",
+          "timestamp": 1751455889.0977936,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097767",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "location"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_4396",
+      "personality": "professional",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Nice to meet you! I'm David, 60 years old. I work in Berlin as a programmer. I enjoy gaming.",
+          "timestamp": 1751455882.0978036,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "David",
+              "age": 60,
+              "occupation": "programmer",
+              "location": "Berlin",
+              "hobbies": [
+                "gaming"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455883.0978043,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I visited Paris last week",
+          "timestamp": 1751455884.097811,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "travel",
+            "time_category": "recent",
+            "time_reference": "last week"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455885.0978115,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "What do you know about my hobbies?",
+          "timestamp": 1751455886.0978146,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "hobbies",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455887.097816,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "Can you recall what I said about travel?",
+          "timestamp": 1751455888.0978186,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "travel",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455889.0978196,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097796",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "hobbies"
+          },
+          {
+            "turn_index": 6,
+            "type": "memory_question",
+            "topic": "travel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_6426",
+      "personality": "professional",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is Alex, I'm a teacher living in Toronto. I love music, painting and hiking.",
+          "timestamp": 1751455882.0978308,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Alex",
+              "age": 30,
+              "occupation": "teacher",
+              "location": "Toronto",
+              "hobbies": [
+                "music",
+                "painting",
+                "hiking"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455883.0978315,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I really enjoy hiking on weekends.",
+          "timestamp": 1751455884.0978363,
+          "metadata": {
+            "type": "random_sharing",
+            "casual_info": true
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455885.097838,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "What do you know about my location?",
+          "timestamp": 1751455886.0978405,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "location",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455887.097842,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "I adopted a rabbit a long time ago",
+          "timestamp": 1751455888.0978484,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "personal",
+            "time_category": "distant",
+            "time_reference": "a long time ago"
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455889.0978496,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097822",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "location"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_7131",
+      "personality": "professional",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is Sarah, I'm a engineer living in Berlin.",
+          "timestamp": 1751455882.097858,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Sarah",
+              "age": 36,
+              "occupation": "engineer",
+              "location": "Berlin",
+              "hobbies": [
+                "gaming"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455883.0978591,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I've been thinking about changing careers.",
+          "timestamp": 1751455884.0978613,
+          "metadata": {
+            "type": "random_sharing",
+            "casual_info": true
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455885.097862,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "What do you know about my job?",
+          "timestamp": 1751455886.0978644,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "job",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455887.0978656,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "Do you remember when I mentioned location?",
+          "timestamp": 1751455888.0978682,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "location",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455889.0978694,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097852",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "job"
+          },
+          {
+            "turn_index": 6,
+            "type": "memory_question",
+            "topic": "location"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_4842",
+      "personality": "casual",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hi, I'm Maria. I'm 48 years old and I work as a lawyer in Sydney. I love gaming and photography.",
+          "timestamp": 1751455882.0978782,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Maria",
+              "age": 48,
+              "occupation": "lawyer",
+              "location": "Sydney",
+              "hobbies": [
+                "gaming",
+                "photography"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455883.0978794,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I moved to London yesterday",
+          "timestamp": 1751455884.0978851,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "personal",
+            "time_category": "recent",
+            "time_reference": "yesterday"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455885.0978866,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "What do you know about my job?",
+          "timestamp": 1751455886.097889,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "job",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455887.0978901,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "I finished a big project when I was younger",
+          "timestamp": 1751455888.097897,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "distant",
+            "time_reference": "when I was younger"
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455889.0978978,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097871",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "job"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_9376",
+      "personality": "friendly",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is Emma, I'm a doctor living in Sydney.",
+          "timestamp": 1751455882.09791,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Emma",
+              "age": 57,
+              "occupation": "doctor",
+              "location": "Sydney",
+              "hobbies": [
+                "music",
+                "photography",
+                "gaming"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455883.0979111,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I had an important meeting this year",
+          "timestamp": 1751455884.0979404,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "medium",
+            "time_reference": "this year"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455885.0979412,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "What did I tell you about my age?",
+          "timestamp": 1751455886.097944,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "age",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455887.097945,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "I visited Paris two years ago",
+          "timestamp": 1751455888.09795,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "travel",
+            "time_category": "distant",
+            "time_reference": "two years ago"
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455889.097951,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097902",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "age"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_3566",
+      "personality": "casual",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is Alex, I'm a doctor living in Toronto.",
+          "timestamp": 1751455882.0979633,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Alex",
+              "age": 51,
+              "occupation": "doctor",
+              "location": "Toronto",
+              "hobbies": [
+                "music",
+                "reading",
+                "painting"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455883.097964,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I started my job as a doctor last month",
+          "timestamp": 1751455884.0979683,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "medium",
+            "time_reference": "last month"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455885.097969,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "Tell me what you remember about age.",
+          "timestamp": 1751455886.0979717,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "age",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "I see. What else would you like to share?",
+          "timestamp": 1751455887.0979726,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "Tell me what you remember about hobbies.",
+          "timestamp": 1751455888.0979755,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "hobbies",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "I see. What else would you like to share?",
+          "timestamp": 1751455889.0979767,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097955",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "age"
+          },
+          {
+            "turn_index": 6,
+            "type": "memory_question",
+            "topic": "hobbies"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_8852",
+      "personality": "professional",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is David, I'm a chef living in Sydney.",
+          "timestamp": 1751455882.0979862,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "David",
+              "age": 25,
+              "occupation": "chef",
+              "location": "Sydney",
+              "hobbies": [
+                "cooking",
+                "gaming"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "I see. What else would you like to share?",
+          "timestamp": 1751455883.0979877,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I finished a big project this year",
+          "timestamp": 1751455884.0979922,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "medium",
+            "time_reference": "this year"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455885.0979934,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "I started my job as a chef when I was younger",
+          "timestamp": 1751455886.098002,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "distant",
+            "time_reference": "when I was younger"
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "I see. What else would you like to share?",
+          "timestamp": 1751455887.0980027,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 6,
+          "role": "user",
+          "content": "Do you remember when I mentioned hobbies?",
+          "timestamp": 1751455888.0980058,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "hobbies",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 7,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455889.0980067,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.097979",
+        "num_turns": 8,
+        "memory_requirements": [
+          {
+            "turn_index": 6,
+            "type": "memory_question",
+            "topic": "hobbies"
+          }
+        ]
+      }
+    }
+  ],
+  "memory_recall": [
+    {
+      "type": "personal",
+      "setup": [
+        {
+          "role": "user",
+          "content": "Hi, I'm Emma and I work as a doctor at City Hospital"
+        },
+        {
+          "role": "user",
+          "content": "I specialize in pediatrics and love working with children"
+        }
+      ],
+      "query": "What's my job and where do I work?",
+      "expected_elements": [
+        "doctor",
+        "City Hospital",
+        "pediatrics"
+      ]
+    },
+    {
+      "type": "factual",
+      "setup": [
+        {
+          "role": "user",
+          "content": "I went to Paris last month and visited the Louvre"
+        },
+        {
+          "role": "user",
+          "content": "The Mona Lisa was incredible to see in person"
+        }
+      ],
+      "query": "Where did I see the Mona Lisa?",
+      "expected_elements": [
+        "Paris",
+        "Louvre",
+        "museum"
+      ]
+    },
+    {
+      "type": "contextual",
+      "setup": [
+        {
+          "role": "user",
+          "content": "I love Italian food, especially pasta"
+        },
+        {
+          "role": "user",
+          "content": "My favorite restaurant is Tony's on Main Street"
+        },
+        {
+          "role": "user",
+          "content": "I'm planning a special dinner for my anniversary"
+        }
+      ],
+      "query": "Where should I go for my anniversary dinner?",
+      "expected_elements": [
+        "Tony's",
+        "Main Street",
+        "Italian"
+      ]
+    }
+  ],
+  "personality_persistence": [
+    {
+      "id": "conv_1751455882_2676",
+      "personality": "friendly",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is John, I'm a chef living in New York. I enjoy cooking.",
+          "timestamp": 1751455882.0980234,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "John",
+              "age": 57,
+              "occupation": "chef",
+              "location": "New York",
+              "hobbies": [
+                "cooking"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455883.0980244,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I moved to Madrid a few days ago",
+          "timestamp": 1751455884.0980299,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "personal",
+            "time_category": "recent",
+            "time_reference": "a few days ago"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455885.0980308,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "I had an important meeting last month",
+          "timestamp": 1751455886.0980368,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "work",
+            "time_category": "medium",
+            "time_reference": "last month"
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455887.0980375,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.098012",
+        "num_turns": 6,
+        "memory_requirements": []
+      }
+    },
+    {
+      "id": "conv_1751455882_6607",
+      "personality": "friendly",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is Emma, I'm a teacher living in London. I enjoy hiking.",
+          "timestamp": 1751455882.098046,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Emma",
+              "age": 55,
+              "occupation": "teacher",
+              "location": "London",
+              "hobbies": [
+                "hiking"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455883.098047,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I've been reading this amazing book lately.",
+          "timestamp": 1751455884.0980492,
+          "metadata": {
+            "type": "random_sharing",
+            "casual_info": true
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455885.09805,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "Tell me what you remember about job.",
+          "timestamp": 1751455886.098053,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "job",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455887.098054,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.098039",
+        "num_turns": 6,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "job"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_7164",
+      "personality": "professional",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hello! My name is Maria, I'm a lawyer living in Toronto.",
+          "timestamp": 1751455882.0980625,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Maria",
+              "age": 28,
+              "occupation": "lawyer",
+              "location": "Toronto",
+              "hobbies": [
+                "cooking"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455883.0980654,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I really enjoy cooking on weekends.",
+          "timestamp": 1751455884.0980678,
+          "metadata": {
+            "type": "random_sharing",
+            "casual_info": true
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455885.0980685,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "I started learning cooking last year",
+          "timestamp": 1751455886.0980752,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "personal",
+            "time_category": "distant",
+            "time_reference": "last year"
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "I appreciate you telling me about that.",
+          "timestamp": 1751455887.098076,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.098055",
+        "num_turns": 6,
+        "memory_requirements": []
+      }
+    },
+    {
+      "id": "conv_1751455882_7254",
+      "personality": "professional",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Nice to meet you! I'm Emma, 48 years old. I work in Madrid as a doctor. I enjoy photography.",
+          "timestamp": 1751455882.098085,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Emma",
+              "age": 48,
+              "occupation": "doctor",
+              "location": "Madrid",
+              "hobbies": [
+                "photography"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That sounds wonderful!",
+          "timestamp": 1751455883.0980856,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I've been thinking about changing careers.",
+          "timestamp": 1751455884.0980878,
+          "metadata": {
+            "type": "random_sharing",
+            "casual_info": true
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "I see. What else would you like to share?",
+          "timestamp": 1751455885.0980883,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "Can you recall what I said about age?",
+          "timestamp": 1751455886.0980904,
+          "metadata": {
+            "type": "memory_question",
+            "referenced_topic": "age",
+            "requires_memory": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "I see. What else would you like to share?",
+          "timestamp": 1751455887.0980916,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.098077",
+        "num_turns": 6,
+        "memory_requirements": [
+          {
+            "turn_index": 4,
+            "type": "memory_question",
+            "topic": "age"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conv_1751455882_7269",
+      "personality": "casual",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Hi, I'm Alex. I'm 62 years old and I work as a lawyer in Berlin. I love reading and hiking.",
+          "timestamp": 1751455882.0981057,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Alex",
+              "age": 62,
+              "occupation": "lawyer",
+              "location": "Berlin",
+              "hobbies": [
+                "reading",
+                "hiking"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455883.0981066,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I visited Madrid a long time ago",
+          "timestamp": 1751455884.0981116,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "travel",
+            "time_category": "distant",
+            "time_reference": "a long time ago"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455885.0981123,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "I attended a wedding a long time ago",
+          "timestamp": 1751455886.098119,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "relationships",
+            "time_category": "distant",
+            "time_reference": "a long time ago"
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455887.0981197,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.098093",
+        "num_turns": 6,
+        "memory_requirements": []
+      }
+    },
+    {
+      "id": "conv_1751455882_2927",
+      "personality": "casual",
+      "complexity": "medium",
+      "turns": [
+        {
+          "turn_index": 0,
+          "role": "user",
+          "content": "Nice to meet you! I'm Emma, 36 years old. I work in Tokyo as a nurse.",
+          "timestamp": 1751455882.0981283,
+          "metadata": {
+            "type": "personal_introduction",
+            "extracted_info": {
+              "name": "Emma",
+              "age": 36,
+              "occupation": "nurse",
+              "location": "Tokyo",
+              "hobbies": [
+                "dancing"
+              ]
+            }
+          }
+        },
+        {
+          "turn_index": 1,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455883.0981295,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 2,
+          "role": "user",
+          "content": "I met my best friend a couple of months ago",
+          "timestamp": 1751455884.0981367,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "relationships",
+            "time_category": "medium",
+            "time_reference": "a couple of months ago"
+          }
+        },
+        {
+          "turn_index": 3,
+          "role": "assistant",
+          "content": "That's interesting! Tell me more.",
+          "timestamp": 1751455885.0981374,
+          "metadata": {
+            "type": "response"
+          }
+        },
+        {
+          "turn_index": 4,
+          "role": "user",
+          "content": "I started learning dancing two years ago",
+          "timestamp": 1751455886.098142,
+          "metadata": {
+            "type": "event_sharing",
+            "event_type": "personal",
+            "time_category": "distant",
+            "time_reference": "two years ago"
+          }
+        },
+        {
+          "turn_index": 5,
+          "role": "assistant",
+          "content": "Thank you for sharing that with me.",
+          "timestamp": 1751455887.0981426,
+          "metadata": {
+            "type": "response"
+          }
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-02T13:31:22.098121",
+        "num_turns": 6,
+        "memory_requirements": []
+      }
+    }
+  ],
+  "context_integration": [
+    {
+      "context_turns": [
+        {
+          "role": "user",
+          "content": "I'm a software engineer"
+        },
+        {
+          "role": "user",
+          "content": "I love hiking on weekends"
+        },
+        {
+          "role": "user",
+          "content": "I'm looking for a new hobby"
+        }
+      ],
+      "integration_query": "What hobby would you recommend for me?",
+      "expected_connections": [
+        "outdoor",
+        "technical",
+        "hiking",
+        "programming"
+      ]
+    },
+    {
+      "context_turns": [
+        {
+          "role": "user",
+          "content": "I moved to New York last year"
+        },
+        {
+          "role": "user",
+          "content": "I work in finance downtown"
+        },
+        {
+          "role": "user",
+          "content": "I'm looking for a good coffee shop near work"
+        }
+      ],
+      "integration_query": "Any coffee shop recommendations?",
+      "expected_connections": [
+        "New York",
+        "downtown",
+        "finance district"
+      ]
+    }
+  ]
+}
