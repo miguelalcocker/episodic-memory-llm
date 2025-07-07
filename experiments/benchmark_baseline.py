@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import json
 import time
 from pathlib import Path
-from src.models.baseline_rag import BaselineRAG
+from src.models.baseline_rag_fixed import BaselineRAG
 from src.evaluation.memory_metrics import MemoryEvaluator, create_test_suite
 
 def load_dataset(filepath: str):
