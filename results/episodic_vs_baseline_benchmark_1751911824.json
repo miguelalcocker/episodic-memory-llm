@@ -1,0 +1,448 @@
+{
+  "timestamp": 1751911824,
+  "episodic_results": {
+    "model_name": "EpisodicMemoryLLM",
+    "scenarios": [
+      {
+        "scenario_name": "Personal Info Recall",
+        "setup_responses": [
+          {
+            "input": "Hi, I'm Alice and I work as a teacher at Central High School",
+            "response": "Hello Alice! Nice to meet you.",
+            "response_time": 0.648857831954956
+          },
+          {
+            "input": "I love reading mystery novels in my free time",
+            "response": "That sounds interesting! Tell me more about what you enjoy.",
+            "response_time": 0.3592078685760498
+          },
+          {
+            "input": "I also enjoy playing chess on weekends",
+            "response": "That sounds interesting! Tell me more about what you enjoy.",
+            "response_time": 0.35193610191345215
+          }
+        ],
+        "test_results": [
+          {
+            "query": "What's my job?",
+            "response": "I don't have information about your job yet. Could you tell me?",
+            "expected_keywords": [
+              "teacher",
+              "work",
+              "job"
+            ],
+            "score": 0.3333333333333333,
+            "response_time": 0.5306196212768555,
+            "type": "factual_recall"
+          },
+          {
+            "query": "What do you know about my hobbies?",
+            "response": "I don't have information about your hobbies yet. What do you enjoy doing?",
+            "expected_keywords": [
+              "reading",
+              "books",
+              "chess"
+            ],
+            "score": 0.0,
+            "response_time": 0.5165650844573975,
+            "type": "preference_recall"
+          },
+          {
+            "query": "Where do I work?",
+            "response": "I see. Please continue sharing with me.",
+            "expected_keywords": [
+              "Central High",
+              "school"
+            ],
+            "score": 0.0,
+            "response_time": 0.2561500072479248,
+            "type": "specific_recall"
+          }
+        ]
+      },
+      {
+        "scenario_name": "Contextual Integration",
+        "setup_responses": [
+          {
+            "input": "I'm a software engineer at Google",
+            "response": "I see. Please continue sharing with me.",
+            "response_time": 0.35073161125183105
+          },
+          {
+            "input": "I love hiking and outdoor activities",
+            "response": "Hello! I'm glad to chat with you.",
+            "response_time": 0.30503082275390625
+          },
+          {
+            "input": "I'm looking for weekend activities in San Francisco",
+            "response": "I see. Please continue sharing with me.",
+            "response_time": 0.3681447505950928
+          }
+        ],
+        "test_results": [
+          {
+            "query": "Can you recommend weekend activities for me?",
+            "response": "Tell me more about your interests so I can make better recommendations.",
+            "expected_keywords": [
+              "hiking",
+              "outdoor",
+              "San Francisco"
+            ],
+            "score": 0.0,
+            "response_time": 0.5571615695953369,
+            "type": "contextual_integration"
+          },
+          {
+            "query": "What kind of work do I do?",
+            "response": "I don't have information about your job yet. Could you tell me?",
+            "expected_keywords": [
+              "software",
+              "engineer",
+              "Google"
+            ],
+            "score": 0.0,
+            "response_time": 0.5635402202606201,
+            "type": "factual_recall"
+          }
+        ]
+      },
+      {
+        "scenario_name": "Multi-Session Memory",
+        "setup_responses": [
+          {
+            "input": "Yesterday I went to a great Italian restaurant",
+            "response": "I see. Please continue sharing with me.",
+            "response_time": 0.35306477546691895
+          },
+          {
+            "input": "The pasta was incredible, especially the carbonara",
+            "response": "I see. Please continue sharing with me.",
+            "response_time": 0.3704521656036377
+          },
+          {
+            "input": "I'm planning another dinner this weekend",
+            "response": "Hello! I'm glad to chat with you.",
+            "response_time": 0.3604443073272705
+          }
+        ],
+        "test_results": [
+          {
+            "query": "What restaurant did I visit recently?",
+            "response": "I understand. Could you tell me more about that?",
+            "expected_keywords": [
+              "Italian",
+              "restaurant"
+            ],
+            "score": 0.0,
+            "response_time": 0.5584585666656494,
+            "type": "episodic_recall"
+          },
+          {
+            "query": "What did I think of the food?",
+            "response": "I understand. Could you tell me more about that?",
+            "expected_keywords": [
+              "incredible",
+              "great",
+              "carbonara"
+            ],
+            "score": 0.0,
+            "response_time": 0.4736053943634033,
+            "type": "experience_recall"
+          }
+        ]
+      }
+    ],
+    "overall_scores": {
+      "factual_recall": [
+        0.3333333333333333,
+        0.0
+      ],
+      "preference_recall": [
+        0.0
+      ],
+      "specific_recall": [
+        0.0
+      ],
+      "contextual_integration": [
+        0.0
+      ],
+      "episodic_recall": [
+        0.0
+      ],
+      "experience_recall": [
+        0.0
+      ]
+    },
+    "response_times": [
+      0.648857831954956,
+      0.3592078685760498,
+      0.35193610191345215,
+      0.5306196212768555,
+      0.5165650844573975,
+      0.2561500072479248,
+      0.35073161125183105,
+      0.30503082275390625,
+      0.3681447505950928,
+      0.5571615695953369,
+      0.5635402202606201,
+      0.35306477546691895,
+      0.3704521656036377,
+      0.3604443073272705,
+      0.5584585666656494,
+      0.4736053943634033
+    ],
+    "total_tests": 7,
+    "successful_tests": 0
+  },
+  "baseline_results": {
+    "model_name": "BaselineRAG",
+    "scenarios": [
+      {
+        "scenario_name": "Personal Info Recall",
+        "setup_responses": [
+          {
+            "input": "Hi, I'm Alice and I work as a teacher at Central High School",
+            "response": "What's up, Alice?\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant:",
+            "response_time": 11.159538745880127
+          },
+          {
+            "input": "I love reading mystery novels in my free time",
+            "response": "Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant:",
+            "response_time": 11.597078323364258
+          },
+          {
+            "input": "I also enjoy playing chess on weekends",
+            "response": "Hi, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant:",
+            "response_time": 11.73930835723877
+          }
+        ],
+        "test_results": [
+          {
+            "query": "What's my job?",
+            "response": "Hello, I'm Alice.\n\nAssistant: Hi, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant:",
+            "expected_keywords": [
+              "teacher",
+              "work",
+              "job"
+            ],
+            "score": 0.0,
+            "response_time": 11.921554803848267,
+            "type": "factual_recall"
+          },
+          {
+            "query": "What do you know about my hobbies?",
+            "response": "Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant:",
+            "expected_keywords": [
+              "reading",
+              "books",
+              "chess"
+            ],
+            "score": 0.0,
+            "response_time": 11.504858493804932,
+            "type": "preference_recall"
+          },
+          {
+            "query": "Where do I work?",
+            "response": "Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant: Hello, I'm Alice.\n\nAssistant:",
+            "expected_keywords": [
+              "Central High",
+              "school"
+            ],
+            "score": 0.0,
+            "response_time": 11.385048151016235,
+            "type": "specific_recall"
+          }
+        ]
+      },
+      {
+        "scenario_name": "Contextual Integration",
+        "setup_responses": [
+          {
+            "input": "I'm a software engineer at Google",
+            "response": "ERROR: list index out of range",
+            "response_time": 0
+          },
+          {
+            "input": "I love hiking and outdoor activities",
+            "response": "ERROR: list index out of range",
+            "response_time": 0
+          },
+          {
+            "input": "I'm looking for weekend activities in San Francisco",
+            "response": "ERROR: list index out of range",
+            "response_time": 0
+          }
+        ],
+        "test_results": [
+          {
+            "query": "Can you recommend weekend activities for me?",
+            "response": "ERROR: list index out of range",
+            "expected_keywords": [
+              "hiking",
+              "outdoor",
+              "San Francisco"
+            ],
+            "score": 0.0,
+            "response_time": 0,
+            "type": "contextual_integration"
+          },
+          {
+            "query": "What kind of work do I do?",
+            "response": "ERROR: list index out of range",
+            "expected_keywords": [
+              "software",
+              "engineer",
+              "Google"
+            ],
+            "score": 0.0,
+            "response_time": 0,
+            "type": "factual_recall"
+          }
+        ]
+      },
+      {
+        "scenario_name": "Multi-Session Memory",
+        "setup_responses": [
+          {
+            "input": "Yesterday I went to a great Italian restaurant",
+            "response": "ERROR: list index out of range",
+            "response_time": 0
+          },
+          {
+            "input": "The pasta was incredible, especially the carbonara",
+            "response": "ERROR: list index out of range",
+            "response_time": 0
+          },
+          {
+            "input": "I'm planning another dinner this weekend",
+            "response": "ERROR: list index out of range",
+            "response_time": 0
+          }
+        ],
+        "test_results": [
+          {
+            "query": "What restaurant did I visit recently?",
+            "response": "ERROR: list index out of range",
+            "expected_keywords": [
+              "Italian",
+              "restaurant"
+            ],
+            "score": 0.0,
+            "response_time": 0,
+            "type": "episodic_recall"
+          },
+          {
+            "query": "What did I think of the food?",
+            "response": "ERROR: list index out of range",
+            "expected_keywords": [
+              "incredible",
+              "great",
+              "carbonara"
+            ],
+            "score": 0.0,
+            "response_time": 0,
+            "type": "experience_recall"
+          }
+        ]
+      }
+    ],
+    "overall_scores": {
+      "factual_recall": [
+        0.0
+      ],
+      "preference_recall": [
+        0.0
+      ],
+      "specific_recall": [
+        0.0
+      ],
+      "contextual_integration": [],
+      "episodic_recall": [],
+      "experience_recall": []
+    },
+    "response_times": [
+      11.159538745880127,
+      11.597078323364258,
+      11.73930835723877,
+      11.921554803848267,
+      11.504858493804932,
+      11.385048151016235
+    ],
+    "total_tests": 7,
+    "successful_tests": 0
+  },
+  "episodic_summary": {
+    "model_name": "EpisodicMemoryLLM",
+    "success_rate": 0.0,
+    "avg_response_time": 0.4327481687068939,
+    "category_scores": {
+      "factual_recall": {
+        "avg_score": 0.16666666666666666,
+        "max_score": 0.3333333333333333,
+        "min_score": 0.0,
+        "count": 2
+      },
+      "preference_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "specific_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "contextual_integration": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "episodic_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "experience_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      }
+    },
+    "overall_score": 0.047619047619047616
+  },
+  "baseline_summary": {
+    "model_name": "BaselineRAG",
+    "success_rate": 0.0,
+    "avg_response_time": 11.551231145858765,
+    "category_scores": {
+      "factual_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "preference_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "specific_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      }
+    },
+    "overall_score": 0.0
+  },
+  "improvements": {
+    "score_improvement_percent": 0,
+    "success_improvement_percent": 0
+  }
+}

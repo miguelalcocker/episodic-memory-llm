@@ -1,0 +1,483 @@
+{
+  "timestamp": 1751971297,
+  "episodic_results": {
+    "model_name": "EpisodicMemoryLLM",
+    "scenarios": [
+      {
+        "scenario_name": "Personal Info Recall",
+        "setup_responses": [
+          {
+            "input": "Hi, I'm Alice and I work as a teacher at Central High School",
+            "response": "Hello! I'm glad to chat with you.",
+            "response_time": 1.0494375228881836
+          },
+          {
+            "input": "I love reading mystery novels in my free time",
+            "response": "That sounds interesting! Tell me more about what you enjoy.",
+            "response_time": 0.7274336814880371
+          },
+          {
+            "input": "I also enjoy playing chess on weekends",
+            "response": "That sounds interesting! Tell me more about what you enjoy.",
+            "response_time": 0.5712835788726807
+          }
+        ],
+        "test_results": [
+          {
+            "query": "What's my job?",
+            "response": "I understand. Could you tell me more about that?",
+            "expected_keywords": [
+              "teacher",
+              "work",
+              "job"
+            ],
+            "score": 0.0,
+            "response_time": 0.31914329528808594,
+            "type": "factual_recall"
+          },
+          {
+            "query": "What do you know about my hobbies?",
+            "response": "I understand. Could you tell me more about that?",
+            "expected_keywords": [
+              "reading",
+              "books",
+              "chess"
+            ],
+            "score": 0.0,
+            "response_time": 0.39138007164001465,
+            "type": "preference_recall"
+          },
+          {
+            "query": "Where do I work?",
+            "response": "I understand. Could you tell me more about that?",
+            "expected_keywords": [
+              "Central High",
+              "school"
+            ],
+            "score": 0.0,
+            "response_time": 0.35005974769592285,
+            "type": "specific_recall"
+          }
+        ]
+      },
+      {
+        "scenario_name": "Contextual Integration",
+        "setup_responses": [
+          {
+            "input": "I'm a software engineer at Google",
+            "response": "I see. Please continue sharing with me.",
+            "response_time": 0.597245454788208
+          },
+          {
+            "input": "I love hiking and outdoor activities",
+            "response": "Hello! I'm glad to chat with you.",
+            "response_time": 0.46933889389038086
+          },
+          {
+            "input": "I'm looking for weekend activities in San Francisco",
+            "response": "I see. Please continue sharing with me.",
+            "response_time": 0.5378751754760742
+          }
+        ],
+        "test_results": [
+          {
+            "query": "Can you recommend weekend activities for me?",
+            "response": "I understand. Could you tell me more about that?",
+            "expected_keywords": [
+              "hiking",
+              "outdoor",
+              "San Francisco"
+            ],
+            "score": 0.0,
+            "response_time": 0.44007372856140137,
+            "type": "contextual_integration"
+          },
+          {
+            "query": "What kind of work do I do?",
+            "response": "I see. Please continue sharing with me.",
+            "expected_keywords": [
+              "software",
+              "engineer",
+              "Google"
+            ],
+            "score": 0.0,
+            "response_time": 0.6294119358062744,
+            "type": "factual_recall"
+          }
+        ]
+      },
+      {
+        "scenario_name": "Multi-Session Memory",
+        "setup_responses": [
+          {
+            "input": "Yesterday I went to a great Italian restaurant",
+            "response": "I see. Please continue sharing with me.",
+            "response_time": 0.5107932090759277
+          },
+          {
+            "input": "The pasta was incredible, especially the carbonara",
+            "response": "I see. Please continue sharing with me.",
+            "response_time": 0.7159085273742676
+          },
+          {
+            "input": "I'm planning another dinner this weekend",
+            "response": "Hello! I'm glad to chat with you.",
+            "response_time": 0.6939010620117188
+          }
+        ],
+        "test_results": [
+          {
+            "query": "What restaurant did I visit recently?",
+            "response": "I see. Please continue sharing with me.",
+            "expected_keywords": [
+              "Italian",
+              "restaurant"
+            ],
+            "score": 0.0,
+            "response_time": 0.6741008758544922,
+            "type": "episodic_recall"
+          },
+          {
+            "query": "What did I think of the food?",
+            "response": "I understand. Could you tell me more about that?",
+            "expected_keywords": [
+              "incredible",
+              "great",
+              "carbonara"
+            ],
+            "score": 0.0,
+            "response_time": 0.4099297523498535,
+            "type": "experience_recall"
+          }
+        ]
+      }
+    ],
+    "overall_scores": {
+      "factual_recall": [
+        0.0,
+        0.0
+      ],
+      "preference_recall": [
+        0.0
+      ],
+      "specific_recall": [
+        0.0
+      ],
+      "contextual_integration": [
+        0.0
+      ],
+      "episodic_recall": [
+        0.0
+      ],
+      "experience_recall": [
+        0.0
+      ]
+    },
+    "response_times": [
+      1.0494375228881836,
+      0.7274336814880371,
+      0.5712835788726807,
+      0.31914329528808594,
+      0.39138007164001465,
+      0.35005974769592285,
+      0.597245454788208,
+      0.46933889389038086,
+      0.5378751754760742,
+      0.44007372856140137,
+      0.6294119358062744,
+      0.5107932090759277,
+      0.7159085273742676,
+      0.6939010620117188,
+      0.6741008758544922,
+      0.4099297523498535
+    ],
+    "total_tests": 7,
+    "successful_tests": 0
+  },
+  "baseline_results": {
+    "model_name": "BaselineRAG",
+    "scenarios": [
+      {
+        "scenario_name": "Personal Info Recall",
+        "setup_responses": [
+          {
+            "input": "Hi, I'm Alice and I work as a teacher at Central High School",
+            "response": "You work as a teacher.",
+            "response_time": 0.7704718112945557
+          },
+          {
+            "input": "I love reading mystery novels in my free time",
+            "response": "I understand. Please tell me more.",
+            "response_time": 0.4667856693267822
+          },
+          {
+            "input": "I also enjoy playing chess on weekends",
+            "response": "You enjoy reading and chess.",
+            "response_time": 0.29935765266418457
+          }
+        ],
+        "test_results": [
+          {
+            "query": "What's my job?",
+            "response": "You work as a teacher.",
+            "expected_keywords": [
+              "teacher",
+              "work",
+              "job"
+            ],
+            "score": 0.6666666666666666,
+            "response_time": 0.1562345027923584,
+            "type": "factual_recall"
+          },
+          {
+            "query": "What do you know about my hobbies?",
+            "response": "You enjoy chess.",
+            "expected_keywords": [
+              "reading",
+              "books",
+              "chess"
+            ],
+            "score": 0.3333333333333333,
+            "response_time": 0.2720513343811035,
+            "type": "preference_recall"
+          },
+          {
+            "query": "Where do I work?",
+            "response": "I don't have clear information about your job.",
+            "expected_keywords": [
+              "Central High",
+              "school"
+            ],
+            "score": 0.0,
+            "response_time": 0.23601222038269043,
+            "type": "specific_recall"
+          }
+        ]
+      },
+      {
+        "scenario_name": "Contextual Integration",
+        "setup_responses": [
+          {
+            "input": "I'm a software engineer at Google",
+            "response": "I understand. Please tell me more.",
+            "response_time": 0.30197715759277344
+          },
+          {
+            "input": "I love hiking and outdoor activities",
+            "response": "I understand. Please tell me more.",
+            "response_time": 0.238236665725708
+          },
+          {
+            "input": "I'm looking for weekend activities in San Francisco",
+            "response": "I understand. Please tell me more.",
+            "response_time": 0.31017351150512695
+          }
+        ],
+        "test_results": [
+          {
+            "query": "Can you recommend weekend activities for me?",
+            "response": "I understand. Please tell me more.",
+            "expected_keywords": [
+              "hiking",
+              "outdoor",
+              "San Francisco"
+            ],
+            "score": 0.0,
+            "response_time": 0.28409910202026367,
+            "type": "contextual_integration"
+          },
+          {
+            "query": "What kind of work do I do?",
+            "response": "I don't have clear information about your job.",
+            "expected_keywords": [
+              "software",
+              "engineer",
+              "Google"
+            ],
+            "score": 0.0,
+            "response_time": 0.2122499942779541,
+            "type": "factual_recall"
+          }
+        ]
+      },
+      {
+        "scenario_name": "Multi-Session Memory",
+        "setup_responses": [
+          {
+            "input": "Yesterday I went to a great Italian restaurant",
+            "response": "I understand. Please tell me more.",
+            "response_time": 0.2750575542449951
+          },
+          {
+            "input": "The pasta was incredible, especially the carbonara",
+            "response": "I understand. Please tell me more.",
+            "response_time": 0.40551042556762695
+          },
+          {
+            "input": "I'm planning another dinner this weekend",
+            "response": "I understand. Please tell me more.",
+            "response_time": 0.3699493408203125
+          }
+        ],
+        "test_results": [
+          {
+            "query": "What restaurant did I visit recently?",
+            "response": "I understand. Please tell me more.",
+            "expected_keywords": [
+              "Italian",
+              "restaurant"
+            ],
+            "score": 0.0,
+            "response_time": 0.2757301330566406,
+            "type": "episodic_recall"
+          },
+          {
+            "query": "What did I think of the food?",
+            "response": "I understand. Please tell me more.",
+            "expected_keywords": [
+              "incredible",
+              "great",
+              "carbonara"
+            ],
+            "score": 0.0,
+            "response_time": 0.28692197799682617,
+            "type": "experience_recall"
+          }
+        ]
+      }
+    ],
+    "overall_scores": {
+      "factual_recall": [
+        0.6666666666666666,
+        0.0
+      ],
+      "preference_recall": [
+        0.3333333333333333
+      ],
+      "specific_recall": [
+        0.0
+      ],
+      "contextual_integration": [
+        0.0
+      ],
+      "episodic_recall": [
+        0.0
+      ],
+      "experience_recall": [
+        0.0
+      ]
+    },
+    "response_times": [
+      0.7704718112945557,
+      0.4667856693267822,
+      0.29935765266418457,
+      0.1562345027923584,
+      0.2720513343811035,
+      0.23601222038269043,
+      0.30197715759277344,
+      0.238236665725708,
+      0.31017351150512695,
+      0.28409910202026367,
+      0.2122499942779541,
+      0.2750575542449951,
+      0.40551042556762695,
+      0.3699493408203125,
+      0.2757301330566406,
+      0.28692197799682617
+    ],
+    "total_tests": 7,
+    "successful_tests": 1
+  },
+  "episodic_summary": {
+    "model_name": "EpisodicMemoryLLM",
+    "success_rate": 0.0,
+    "avg_response_time": 0.5679572820663452,
+    "category_scores": {
+      "factual_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 2
+      },
+      "preference_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "specific_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "contextual_integration": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "episodic_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "experience_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      }
+    },
+    "overall_score": 0.0
+  },
+  "baseline_summary": {
+    "model_name": "BaselineRAG",
+    "success_rate": 0.14285714285714285,
+    "avg_response_time": 0.3225511908531189,
+    "category_scores": {
+      "factual_recall": {
+        "avg_score": 0.3333333333333333,
+        "max_score": 0.6666666666666666,
+        "min_score": 0.0,
+        "count": 2
+      },
+      "preference_recall": {
+        "avg_score": 0.3333333333333333,
+        "max_score": 0.3333333333333333,
+        "min_score": 0.3333333333333333,
+        "count": 1
+      },
+      "specific_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "contextual_integration": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "episodic_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      },
+      "experience_recall": {
+        "avg_score": 0.0,
+        "max_score": 0.0,
+        "min_score": 0.0,
+        "count": 1
+      }
+    },
+    "overall_score": 0.14285714285714285
+  },
+  "improvements": {
+    "score_improvement_percent": -100.0,
+    "success_improvement_percent": -100.0
+  }
+}

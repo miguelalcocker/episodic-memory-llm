@@ -1,0 +1,241 @@
+{
+  "nodes": {
+    "node_0": {
+      "node_id": "node_0",
+      "content": "Hi, I'm Alice and I work as a teacher",
+      "embedding": [
+        0.040925728295224534,
+        0.34275297447250547,
+        0.329111065040764,
+        0.3853839414466977,
+        0.25408056316618566,
+        0.11254575281186747,
+        0.06479906980077219,
+        0.18416577732851042,
+        0.013641909431741511,
+        0.20803911883405804,
+        0.2626067565610241,
+        0.06309383112180449,
+        0.2472596084503149,
+        0.2762486659927656,
+        0.3239953490038609,
+        0.3870891801256654
+      ],
+      "timestamp": 1751909077.7130363,
+      "node_type": "personal_info",
+      "metadata": {},
+      "access_count": 1,
+      "last_accessed": 1751909078.217,
+      "strength": 1.0999993576852203
+    },
+    "node_1": {
+      "node_id": "node_1",
+      "content": "I love reading books in my free time",
+      "embedding": [
+        0.3571911108544673,
+        0.07457836380477888,
+        0.03532659338121105,
+        0.2767249814861532,
+        0.30027604374029393,
+        0.12168048831306029,
+        0.34541557972739695,
+        0.33560263712150495,
+        0.29242568965558036,
+        0.10009201458009798,
+        0.02158847373296231,
+        0.3081263978250075,
+        0.3513033452909321,
+        0.3022386322614723,
+        0.21392214880844468,
+        0.025513650775319092
+      ],
+      "timestamp": 1751909077.8133364,
+      "node_type": "preferences",
+      "metadata": {},
+      "access_count": 1,
+      "last_accessed": 1751909078.217,
+      "strength": 1.0999994853820063
+    },
+    "node_2": {
+      "node_id": "node_2",
+      "content": "Yesterday I went to the library",
+      "embedding": [
+        0.32495050640463125,
+        0.0554417925619276,
+        0.10780348553708145,
+        0.3680719006194638,
+        0.23100746900803168,
+        0.1601651785122353,
+        0.2910694109501199,
+        0.007700248966934389,
+        0.3449711537186606,
+        0.3403510043385,
+        0.07238234028918326,
+        0.2633485146691561,
+        0.2294674192146448,
+        0.32495050640463125,
+        0.006160199173547511,
+        0.3357308549583394
+      ],
+      "timestamp": 1751909077.913924,
+      "node_type": "episodic",
+      "metadata": {},
+      "access_count": 1,
+      "last_accessed": 1751909078.217,
+      "strength": 1.0999996134448786
+    },
+    "node_3": {
+      "node_id": "node_3",
+      "content": "I teach mathematics at the local school",
+      "embedding": [
+        0.3927093323241268,
+        0.46852945094116116,
+        0.26051015114570786,
+        0.1574725540507637,
+        0.03499390090016971,
+        0.03304979529460473,
+        0.359659537029522,
+        0.07776422422259936,
+        0.2527337287234479,
+        0.22940446145666812,
+        0.31105689689039745,
+        0.046658534533559615,
+        0.021385161661214826,
+        0.4004857547463867,
+        0.11081401951720408,
+        0.0855406466448593
+      ],
+      "timestamp": 1751909078.01462,
+      "node_type": "personal_info",
+      "metadata": {},
+      "access_count": 1,
+      "last_accessed": 1751909078.217,
+      "strength": 1.0999997416458775
+    },
+    "node_4": {
+      "node_id": "node_4",
+      "content": "My favorite book is about quantum physics",
+      "embedding": [
+        0.10980126882961823,
+        0.2119774495460685,
+        0.1814770970933968,
+        0.048800563924274766,
+        0.12200140981068691,
+        0.272978154451412,
+        0.27145313682877836,
+        0.34465398271519054,
+        0.335503876979389,
+        0.36600422943206073,
+        0.12047639218805332,
+        0.317203665507786,
+        0.3217787183756867,
+        0.3705792822999615,
+        0.006100070490534346,
+        0.15250176226335865
+      ],
+      "timestamp": 1751909078.1155732,
+      "node_type": "preferences",
+      "metadata": {},
+      "access_count": 1,
+      "last_accessed": 1751909078.217,
+      "strength": 1.0999998701741098
+    }
+  },
+  "edges": {
+    "node_2->node_1": {
+      "source_id": "node_2",
+      "target_id": "node_1",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909077.913924,
+      "strength": 0.774207219620242,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_1->node_2": {
+      "source_id": "node_1",
+      "target_id": "node_2",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909077.913924,
+      "strength": 0.774207219620242,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_3->node_2": {
+      "source_id": "node_3",
+      "target_id": "node_2",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909078.01462,
+      "strength": 0.6728071902224866,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_2->node_3": {
+      "source_id": "node_2",
+      "target_id": "node_3",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909078.01462,
+      "strength": 0.6728071902224866,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_4->node_1": {
+      "source_id": "node_4",
+      "target_id": "node_1",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909078.1155732,
+      "strength": 0.7695503252862532,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_1->node_4": {
+      "source_id": "node_1",
+      "target_id": "node_4",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909078.1155732,
+      "strength": 0.7695503252862532,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_4->node_2": {
+      "source_id": "node_4",
+      "target_id": "node_2",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909078.1155732,
+      "strength": 0.7665881516275082,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_2->node_4": {
+      "source_id": "node_2",
+      "target_id": "node_4",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909078.1155732,
+      "strength": 0.7665881516275082,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_4->node_3": {
+      "source_id": "node_4",
+      "target_id": "node_3",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909078.1155732,
+      "strength": 0.6751681789524382,
+      "metadata": {},
+      "reinforcement_count": 0
+    },
+    "node_3->node_4": {
+      "source_id": "node_3",
+      "target_id": "node_4",
+      "relation_type": "semantic_similarity",
+      "timestamp": 1751909078.1155732,
+      "strength": 0.6751681789524382,
+      "metadata": {},
+      "reinforcement_count": 0
+    }
+  },
+  "config": {
+    "max_nodes": 100,
+    "decay_rate": 0.1,
+    "node_counter": 5
+  }
+}
