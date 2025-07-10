@@ -23,7 +23,7 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.models.episodic_memory_llm_v2 import EpisodicMemoryLLM_V2
-from src.models.baseline_rag_functional import BaselineRAGSystem
+from src.models.baseline_rag_functional import SimpleFunctionalRAG as BaselineRAG
 
 logger = logging.getLogger(__name__)
 
