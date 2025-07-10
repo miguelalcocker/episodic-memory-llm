@@ -1,0 +1,26 @@
+{
+  "user_profile": {
+    "name": "Miguel",
+    "preferences": {
+      "last_mentioned": "¿Qué tipo de música me gusta?"
+    },
+    "important_memories": [
+      {
+        "type": "personal_info",
+        "content": "Hola, soy María y trabajo como diseñadora UX en Spotify",
+        "timestamp": 1752080814.683978
+      }
+    ],
+    "session_count": 1
+  },
+  "session_date": "2025-07-09T19:06:53.336303",
+  "important_memories": [
+    "Hola, soy María y trabajo como diseñadora UX en Spotify",
+    "Me encanta escuchar jazz y tocar piano en mi tiempo libre",
+    "Ayer fui a un concierto increíble de jazz en el Teatro Real",
+    "¿Cuál es mi trabajo?",
+    "¿Qué tipo de música me gusta?",
+    "¿Qué hice ayer?",
+    "Recomiéndame actividades para el fin de semana"
+  ]
+}
