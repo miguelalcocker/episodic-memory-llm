@@ -17,7 +17,7 @@ import os
 # Import our components with correct path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from memory.temporal_knowledge_graph import TemporalKnowledgeGraph
-from memory.advanced_memory_retrieval_v3 import AdvancedMemoryRetrieval_V3
+from memory.advanced_memory_retrieval_v3_fixed import AdvancedMemoryRetrieval_V3
 
 logger = logging.getLogger(__name__)
 
