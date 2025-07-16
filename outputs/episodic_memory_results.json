@@ -1,0 +1,158 @@
+{
+  "conversation_results": [
+    {
+      "turn": 1,
+      "user_input": "Hi, my name is Alex and I'm 25 years old",
+      "echo_response": "I don't know your name yet.",
+      "facts_stored": 2,
+      "total_episodes": 1,
+      "response_time": 0.298061,
+      "is_question": false
+    },
+    {
+      "turn": 2,
+      "user_input": "I work as a data scientist in Madrid",
+      "echo_response": "I don't know what you do for work yet.",
+      "facts_stored": 4,
+      "total_episodes": 2,
+      "response_time": 0.009335,
+      "is_question": false
+    },
+    {
+      "turn": 3,
+      "user_input": "I love playing guitar and reading books",
+      "echo_response": "I don't know your hobbies yet.",
+      "facts_stored": 5,
+      "total_episodes": 3,
+      "response_time": 0.004766,
+      "is_question": false
+    },
+    {
+      "turn": 4,
+      "user_input": "I also enjoy hiking on weekends",
+      "echo_response": "You like reading books and playing guitar.",
+      "facts_stored": 5,
+      "total_episodes": 4,
+      "response_time": 0.004701,
+      "is_question": false
+    },
+    {
+      "turn": 5,
+      "user_input": "My favorite programming language is Python",
+      "echo_response": "You are 25 years old.",
+      "facts_stored": 5,
+      "total_episodes": 5,
+      "response_time": 0.004643,
+      "is_question": false
+    },
+    {
+      "turn": 6,
+      "user_input": "What's my name?",
+      "echo_response": "Your name is Alex.",
+      "facts_stored": 5,
+      "total_episodes": 6,
+      "response_time": 0.004578,
+      "is_question": true
+    },
+    {
+      "turn": 7,
+      "user_input": "How old am I?",
+      "echo_response": "You are 25 years old.",
+      "facts_stored": 5,
+      "total_episodes": 7,
+      "response_time": 0.004614,
+      "is_question": true
+    },
+    {
+      "turn": 8,
+      "user_input": "Where do I work and what's my job?",
+      "echo_response": "You work as a data scientist in Madrid.",
+      "facts_stored": 5,
+      "total_episodes": 8,
+      "response_time": 0.0047,
+      "is_question": true
+    },
+    {
+      "turn": 9,
+      "user_input": "What are my hobbies?",
+      "echo_response": "You like reading books and playing guitar.",
+      "facts_stored": 5,
+      "total_episodes": 9,
+      "response_time": 0.004601,
+      "is_question": true
+    },
+    {
+      "turn": 10,
+      "user_input": "What programming language do I prefer?",
+      "echo_response": "You are 25 years old.",
+      "facts_stored": 5,
+      "total_episodes": 10,
+      "response_time": 0.004575,
+      "is_question": true
+    }
+  ],
+  "precision_results": [
+    {
+      "question": "What's my name?",
+      "expected": "Alex",
+      "response": "Your name is Alex.",
+      "category": "personal_info",
+      "correct": true,
+      "score": 1.0
+    },
+    {
+      "question": "How old am I?",
+      "expected": "25",
+      "response": "You are 25 years old.",
+      "category": "personal_info",
+      "correct": true,
+      "score": 1.0
+    },
+    {
+      "question": "Where do I work?",
+      "expected": "Madrid",
+      "response": "You work as a data scientist in Programming Language.",
+      "category": "work_info",
+      "correct": false,
+      "score": 0.0
+    },
+    {
+      "question": "What's my job?",
+      "expected": "data scientist",
+      "response": "You work as a data scientist in Programming Language.",
+      "category": "work_info",
+      "correct": true,
+      "score": 1.0
+    },
+    {
+      "question": "What do I like to do?",
+      "expected": [
+        "guitar",
+        "reading",
+        "hiking"
+      ],
+      "response": "You like reading books and playing guitar.",
+      "category": "hobbies",
+      "correct": true,
+      "score": 0.6666666666666666
+    }
+  ],
+  "performance_metrics": {
+    "Precisi\u00f3n de Memoria": "73.3%",
+    "Tiempo de Respuesta": "0.034s",
+    "Hechos Extra\u00eddos": 5,
+    "Episodios Almacenados": 10,
+    "Eficiencia de Memoria": "0.50"
+  },
+  "final_facts": {
+    "name": "Alex",
+    "age": "25",
+    "job": "data scientist",
+    "location": "Programming Language",
+    "hobbies": [
+      "playing guitar",
+      "reading books",
+      "to do?"
+    ]
+  }
+}
