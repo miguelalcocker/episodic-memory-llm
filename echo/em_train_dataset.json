@@ -1,0 +1,6560 @@
+[
+  {
+    "id": 0,
+    "character": {
+      "name": "James",
+      "occupation": "Musician",
+      "age": 36,
+      "gender": "Male",
+      "hobbies": [
+        "Music",
+        "Karaoke",
+        "Video reviews"
+      ],
+      "personality": [
+        "Optimistic",
+        "Empathetic",
+        "Organized"
+      ],
+      "social_relationships": "James has a spouse and two children. As a Musician, James has many professional colleagues. James is part of a local music group."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:57:20"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:21:54"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:40:03"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "character": {
+      "name": "Patricia",
+      "occupation": "Photographer",
+      "age": 77,
+      "gender": "Female",
+      "hobbies": [
+        "Writing",
+        "Sports",
+        "Academic research",
+        "Music",
+        "Karaoke",
+        "Keeping small animals"
+      ],
+      "personality": [
+        "Organized",
+        "Responsible",
+        "Patient"
+      ],
+      "social_relationships": "Patricia has a spouse and two children. As a Photographer, Patricia has many professional colleagues. Patricia is part of a local music group. Patricia plays in a recreational sports league."
+    },
+    "rounds": 4,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:48:06"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:01:16"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:11:23"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:28:03"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "character": {
+      "name": "Sage",
+      "occupation": "Designer",
+      "age": 45,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Writing",
+        "Academic research",
+        "Reading",
+        "Painting",
+        "Cybersecurity",
+        "Video reviews"
+      ],
+      "personality": [
+        "Reliable",
+        "Creative",
+        "Analytical"
+      ],
+      "social_relationships": "Sage has a spouse and two children. As a Designer, Sage has many professional colleagues."
+    },
+    "rounds": 0,
+    "training_data": []
+  },
+  {
+    "id": 3,
+    "character": {
+      "name": "Taylor",
+      "occupation": "Musician",
+      "age": 77,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Cybersecurity",
+        "Cooking",
+        "Sports"
+      ],
+      "personality": [
+        "Optimistic",
+        "Adventurous"
+      ],
+      "social_relationships": "Taylor has a spouse and two children. As a Musician, Taylor has many professional colleagues. Taylor plays in a recreational sports league."
+    },
+    "rounds": 7,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:52:53"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:05:43"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:25:24"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:55:20"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:00:05"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:21:57"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:25:20"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "character": {
+      "name": "Linda",
+      "occupation": "Chef",
+      "age": 19,
+      "gender": "Female",
+      "hobbies": [
+        "Travel",
+        "Keeping small animals",
+        "Academic research",
+        "Painting"
+      ],
+      "personality": [
+        "Patient",
+        "Reliable",
+        "Curious"
+      ],
+      "social_relationships": "As a Chef, Linda has many professional colleagues."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:02:23"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:05:56"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:34:02"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "character": {
+      "name": "Taylor",
+      "occupation": "Scientist",
+      "age": 32,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Video reviews",
+        "Writing",
+        "Music",
+        "Academic research",
+        "Karaoke",
+        "Reading"
+      ],
+      "personality": [
+        "Adventurous",
+        "Patient",
+        "Thoughtful",
+        "Curious"
+      ],
+      "social_relationships": "Taylor has a spouse and two children. As a Scientist, Taylor has many professional colleagues. Taylor is part of a local music group."
+    },
+    "rounds": 0,
+    "training_data": []
+  },
+  {
+    "id": 6,
+    "character": {
+      "name": "Riley",
+      "occupation": "Teacher",
+      "age": 68,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Dancing",
+        "Photography",
+        "Travel",
+        "Gardening"
+      ],
+      "personality": [
+        "Curious",
+        "Adventurous",
+        "Analytical"
+      ],
+      "social_relationships": "Riley has a spouse and two children. As a Teacher, Riley has many professional colleagues."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:56:52"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:19"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:29:48"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "character": {
+      "name": "William",
+      "occupation": "Chef",
+      "age": 49,
+      "gender": "Male",
+      "hobbies": [
+        "Karaoke",
+        "Writing",
+        "Dancing",
+        "Reading"
+      ],
+      "personality": [
+        "Creative",
+        "Organized",
+        "Thoughtful",
+        "Curious"
+      ],
+      "social_relationships": "William has a spouse and two children. As a Chef, William has many professional colleagues."
+    },
+    "rounds": 21,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:03:01"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:05:47"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:14:29"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:39:56"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:07:51"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:22:33"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:24:56"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:28:09"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:37:00"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:48:04"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:08:50"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:37:27"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:52:33"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:53:39"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:58:32"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:21:12"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:41:33"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:08:58"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:22:13"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:47:38"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:55:23"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "character": {
+      "name": "Patricia",
+      "occupation": "Scientist",
+      "age": 73,
+      "gender": "Female",
+      "hobbies": [
+        "Writing",
+        "Gaming",
+        "Music",
+        "Video reviews"
+      ],
+      "personality": [
+        "Responsible",
+        "Thoughtful",
+        "Patient"
+      ],
+      "social_relationships": "Patricia has a spouse and two children. As a Scientist, Patricia has many professional colleagues. Patricia is part of a local music group."
+    },
+    "rounds": 26,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:48:44"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:13:28"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:29:59"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:59:59"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:15:49"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:18:22"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:31:49"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:47:49"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:17:32"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:29:01"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:39:11"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:00:51"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:23:35"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:47:00"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:14:52"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:18:40"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:41:17"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:49:35"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:53:20"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:08:35"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:22:27"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:37:30"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:07:14"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:35:54"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:36:57"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 05:05:55"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "character": {
+      "name": "Richard",
+      "occupation": "Designer",
+      "age": 48,
+      "gender": "Male",
+      "hobbies": [
+        "Keeping small animals",
+        "Academic research",
+        "Karaoke"
+      ],
+      "personality": [
+        "Curious",
+        "Good communicator",
+        "Empathetic"
+      ],
+      "social_relationships": "Richard has a spouse and two children. As a Designer, Richard has many professional colleagues. Richard maintains a wide circle of friends."
+    },
+    "rounds": 34,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:24"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:22:42"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:48:16"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:50:20"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:13:55"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:27:00"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:44:48"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:49:33"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:13:24"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:29:00"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:47:30"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:11:47"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:27:09"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:40:14"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:01:05"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:20:20"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:21:20"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:23:33"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:30:46"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:46:40"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:09:21"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:27:59"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:51:13"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:57:59"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:11:44"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:16:13"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:21:40"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:28:13"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:50:07"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 05:04:26"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 05:16:11"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 05:20:56"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 05:22:11"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 05:39:04"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "character": {
+      "name": "Joseph",
+      "occupation": "Photographer",
+      "age": 32,
+      "gender": "Male",
+      "hobbies": [
+        "Writing",
+        "Dancing",
+        "Cooking",
+        "Academic research",
+        "Karaoke",
+        "Sports"
+      ],
+      "personality": [
+        "Analytical",
+        "Adventurous"
+      ],
+      "social_relationships": "Joseph has a spouse and two children. As a Photographer, Joseph has many professional colleagues. Joseph plays in a recreational sports league."
+    },
+    "rounds": 0,
+    "training_data": []
+  },
+  {
+    "id": 11,
+    "character": {
+      "name": "Alex",
+      "occupation": "Doctor",
+      "age": 70,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Travel",
+        "Cooking",
+        "Sports",
+        "Gaming",
+        "Photography",
+        "Gardening"
+      ],
+      "personality": [
+        "Responsible",
+        "Optimistic"
+      ],
+      "social_relationships": "Alex has a spouse and two children. As a Doctor, Alex has many professional colleagues. Alex plays in a recreational sports league."
+    },
+    "rounds": 7,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:45:26"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:50:43"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:17:08"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:41:09"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:43:01"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:49:19"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:54:16"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "character": {
+      "name": "Sage",
+      "occupation": "Chef",
+      "age": 53,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Video reviews",
+        "Hiking",
+        "Karaoke",
+        "Dancing",
+        "Photography",
+        "Sports"
+      ],
+      "personality": [
+        "Good communicator",
+        "Adventurous",
+        "Responsible",
+        "Reliable"
+      ],
+      "social_relationships": "Sage has a spouse and two children. As a Chef, Sage has many professional colleagues. Sage plays in a recreational sports league. Sage maintains a wide circle of friends."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:52:45"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:07"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:27:05"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "character": {
+      "name": "Barbara",
+      "occupation": "Scientist",
+      "age": 19,
+      "gender": "Female",
+      "hobbies": [
+        "Painting",
+        "Video reviews",
+        "Sports",
+        "Gardening",
+        "Karaoke"
+      ],
+      "personality": [
+        "Responsible",
+        "Optimistic",
+        "Thoughtful"
+      ],
+      "social_relationships": "As a Scientist, Barbara has many professional colleagues. Barbara plays in a recreational sports league."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:57:33"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:13:39"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:35:35"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "character": {
+      "name": "Avery",
+      "occupation": "Programmer",
+      "age": 56,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Academic research",
+        "Keeping small animals",
+        "Cooking"
+      ],
+      "personality": [
+        "Optimistic",
+        "Good communicator"
+      ],
+      "social_relationships": "Avery has a spouse and two children. As a Programmer, Avery has many professional colleagues. Avery maintains a wide circle of friends."
+    },
+    "rounds": 13,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:46:59"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:03:12"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:29:15"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:47:13"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:08:32"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:14:31"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:24:13"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:40:27"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:02:43"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:26:41"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:53:55"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:21:42"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:44:52"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "character": {
+      "name": "Barbara",
+      "occupation": "Designer",
+      "age": 63,
+      "gender": "Female",
+      "hobbies": [
+        "Travel",
+        "Dancing",
+        "Music",
+        "Gardening",
+        "Sports"
+      ],
+      "personality": [
+        "Creative",
+        "Empathetic",
+        "Thoughtful"
+      ],
+      "social_relationships": "Barbara has a spouse and two children. As a Designer, Barbara has many professional colleagues. Barbara is part of a local music group. Barbara plays in a recreational sports league."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:48:13"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:04:36"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:13:34"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "character": {
+      "name": "Robert",
+      "occupation": "Artist",
+      "age": 50,
+      "gender": "Male",
+      "hobbies": [
+        "Sports",
+        "Video reviews",
+        "Painting",
+        "Travel"
+      ],
+      "personality": [
+        "Reliable",
+        "Analytical",
+        "Empathetic"
+      ],
+      "social_relationships": "Robert has a spouse and two children. As a Artist, Robert has many professional colleagues. Robert plays in a recreational sports league."
+    },
+    "rounds": 7,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:04:31"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:31:13"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:58:18"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:25:32"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:38:52"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:05:41"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:31:12"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "character": {
+      "name": "Susan",
+      "occupation": "Scientist",
+      "age": 46,
+      "gender": "Female",
+      "hobbies": [
+        "Reading",
+        "Writing",
+        "Karaoke",
+        "Academic research",
+        "Cooking"
+      ],
+      "personality": [
+        "Curious",
+        "Good communicator",
+        "Adventurous"
+      ],
+      "social_relationships": "Susan has a spouse and two children. As a Scientist, Susan has many professional colleagues. Susan maintains a wide circle of friends."
+    },
+    "rounds": 1,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:29"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "character": {
+      "name": "Casey",
+      "occupation": "Programmer",
+      "age": 77,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Dancing",
+        "Music",
+        "Hiking",
+        "Writing",
+        "Painting"
+      ],
+      "personality": [
+        "Adventurous",
+        "Responsible"
+      ],
+      "social_relationships": "Casey has a spouse and two children. As a Programmer, Casey has many professional colleagues. Casey is part of a local music group."
+    },
+    "rounds": 10,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:44:51"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:36"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:12:53"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:35:36"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:54:33"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:13:59"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:31:07"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:43:14"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:52:46"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:09:58"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "character": {
+      "name": "Jordan",
+      "occupation": "Scientist",
+      "age": 60,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Academic research",
+        "Writing",
+        "Painting",
+        "Karaoke"
+      ],
+      "personality": [
+        "Good communicator",
+        "Empathetic",
+        "Responsible",
+        "Thoughtful"
+      ],
+      "social_relationships": "Jordan has a spouse and two children. As a Scientist, Jordan has many professional colleagues. Jordan maintains a wide circle of friends."
+    },
+    "rounds": 12,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:03:25"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:08:03"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:21:06"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:22:13"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:41:19"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:09:22"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:27:12"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:55:43"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:01:07"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:12:39"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:23:20"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:45:00"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "character": {
+      "name": "John",
+      "occupation": "Programmer",
+      "age": 73,
+      "gender": "Male",
+      "hobbies": [
+        "Writing",
+        "Painting",
+        "Dancing"
+      ],
+      "personality": [
+        "Analytical",
+        "Responsible",
+        "Patient",
+        "Good communicator"
+      ],
+      "social_relationships": "John has a spouse and two children. As a Programmer, John has many professional colleagues. John maintains a wide circle of friends."
+    },
+    "rounds": 9,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:09:19"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:38:19"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:06:28"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:31:54"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:46:41"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:56:50"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:25:52"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:34:11"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:42:36"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "character": {
+      "name": "Riley",
+      "occupation": "Lawyer",
+      "age": 59,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Gaming",
+        "Academic research",
+        "Sports",
+        "Gardening",
+        "Cybersecurity",
+        "Reading"
+      ],
+      "personality": [
+        "Reliable",
+        "Responsible",
+        "Optimistic",
+        "Patient"
+      ],
+      "social_relationships": "Riley has a spouse and two children. As a Lawyer, Riley has many professional colleagues. Riley plays in a recreational sports league."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:02:10"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:29:52"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:38:01"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "character": {
+      "name": "Jessica",
+      "occupation": "Musician",
+      "age": 56,
+      "gender": "Female",
+      "hobbies": [
+        "Keeping small animals",
+        "Gardening",
+        "Dancing"
+      ],
+      "personality": [
+        "Analytical",
+        "Optimistic"
+      ],
+      "social_relationships": "Jessica has a spouse and two children. As a Musician, Jessica has many professional colleagues."
+    },
+    "rounds": 7,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:00:04"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:14:38"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:19:09"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:48:17"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:50:57"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:57:40"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:12:00"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "character": {
+      "name": "James",
+      "occupation": "Doctor",
+      "age": 31,
+      "gender": "Male",
+      "hobbies": [
+        "Sports",
+        "Cooking",
+        "Music",
+        "Travel",
+        "Gaming"
+      ],
+      "personality": [
+        "Analytical",
+        "Thoughtful",
+        "Optimistic",
+        "Empathetic"
+      ],
+      "social_relationships": "James has a spouse and two children. As a Doctor, James has many professional colleagues. James is part of a local music group. James plays in a recreational sports league."
+    },
+    "rounds": 0,
+    "training_data": []
+  },
+  {
+    "id": 24,
+    "character": {
+      "name": "William",
+      "occupation": "Teacher",
+      "age": 65,
+      "gender": "Male",
+      "hobbies": [
+        "Travel",
+        "Dancing",
+        "Cybersecurity",
+        "Keeping small animals",
+        "Gaming"
+      ],
+      "personality": [
+        "Empathetic",
+        "Responsible",
+        "Good communicator",
+        "Creative"
+      ],
+      "social_relationships": "William has a spouse and two children. As a Teacher, William has many professional colleagues. William maintains a wide circle of friends."
+    },
+    "rounds": 4,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:58:00"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:11:39"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:15:10"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:28:22"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "character": {
+      "name": "Jordan",
+      "occupation": "Programmer",
+      "age": 55,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Karaoke",
+        "Cooking",
+        "Gardening",
+        "Travel"
+      ],
+      "personality": [
+        "Creative",
+        "Thoughtful"
+      ],
+      "social_relationships": "Jordan has a spouse and two children. As a Programmer, Jordan has many professional colleagues."
+    },
+    "rounds": 20,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:45:58"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:04:26"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:33:35"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:00:57"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:18:53"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:41:35"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:50:28"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:07:46"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:14:11"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:41:11"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:56:37"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:14:54"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:30:23"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:56:41"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:05:44"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:08:21"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:12:37"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:41:50"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:10:26"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:16:29"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "character": {
+      "name": "Linda",
+      "occupation": "Programmer",
+      "age": 55,
+      "gender": "Female",
+      "hobbies": [
+        "Photography",
+        "Video reviews",
+        "Gaming",
+        "Painting"
+      ],
+      "personality": [
+        "Creative",
+        "Patient",
+        "Optimistic",
+        "Adventurous"
+      ],
+      "social_relationships": "Linda has a spouse and two children. As a Programmer, Linda has many professional colleagues."
+    },
+    "rounds": 22,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:47:42"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:54:09"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:56:19"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:20:05"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:39:45"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:51:29"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:19:37"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:44:11"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:54:55"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:14:54"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:32:00"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:51:36"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:06:45"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:21:18"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:33:54"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:52:32"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:58:09"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:19:07"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:40:57"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:46:37"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:13:39"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:27:49"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "character": {
+      "name": "Sage",
+      "occupation": "Chef",
+      "age": 76,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Travel",
+        "Dancing",
+        "Karaoke"
+      ],
+      "personality": [
+        "Responsible",
+        "Reliable",
+        "Analytical",
+        "Adventurous"
+      ],
+      "social_relationships": "Sage has a spouse and two children. As a Chef, Sage has many professional colleagues."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:49:50"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:59:20"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:34"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "character": {
+      "name": "Sage",
+      "occupation": "Teacher",
+      "age": 64,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Painting",
+        "Gaming",
+        "Writing"
+      ],
+      "personality": [
+        "Reliable",
+        "Optimistic",
+        "Thoughtful"
+      ],
+      "social_relationships": "Sage has a spouse and two children. As a Teacher, Sage has many professional colleagues."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:48:21"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:26"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:33:45"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "character": {
+      "name": "James",
+      "occupation": "Lawyer",
+      "age": 18,
+      "gender": "Male",
+      "hobbies": [
+        "Writing",
+        "Gaming",
+        "Academic research"
+      ],
+      "personality": [
+        "Optimistic",
+        "Creative",
+        "Adventurous",
+        "Patient"
+      ],
+      "social_relationships": "As a Lawyer, James has many professional colleagues."
+    },
+    "rounds": 6,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:11:13"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:18:41"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:33:43"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:39:58"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:47:41"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:13:00"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "character": {
+      "name": "Avery",
+      "occupation": "Teacher",
+      "age": 40,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Photography",
+        "Gaming",
+        "Sports"
+      ],
+      "personality": [
+        "Optimistic",
+        "Reliable",
+        "Creative"
+      ],
+      "social_relationships": "Avery has a spouse and two children. As a Teacher, Avery has many professional colleagues. Avery plays in a recreational sports league."
+    },
+    "rounds": 1,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:06:51"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "character": {
+      "name": "Patricia",
+      "occupation": "Writer",
+      "age": 67,
+      "gender": "Female",
+      "hobbies": [
+        "Hiking",
+        "Academic research",
+        "Painting"
+      ],
+      "personality": [
+        "Reliable",
+        "Adventurous"
+      ],
+      "social_relationships": "Patricia has a spouse and two children. As a Writer, Patricia has many professional colleagues."
+    },
+    "rounds": 21,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:47:47"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:57:55"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:08:48"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:50"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:39:30"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:09:11"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:18:20"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:42:47"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:48:31"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:58:00"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:17:01"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:24:20"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:29:30"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:47:14"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:00:03"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:06:35"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:08:26"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:11:48"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:25:20"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:30:57"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:37:44"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "character": {
+      "name": "Robert",
+      "occupation": "Scientist",
+      "age": 40,
+      "gender": "Male",
+      "hobbies": [
+        "Dancing",
+        "Gaming",
+        "Karaoke",
+        "Writing",
+        "Hiking"
+      ],
+      "personality": [
+        "Curious",
+        "Optimistic",
+        "Responsible",
+        "Thoughtful"
+      ],
+      "social_relationships": "Robert has a spouse and two children. As a Scientist, Robert has many professional colleagues."
+    },
+    "rounds": 2,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:11:19"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:24:58"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "character": {
+      "name": "Taylor",
+      "occupation": "Doctor",
+      "age": 45,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Hiking",
+        "Cybersecurity",
+        "Gaming",
+        "Dancing",
+        "Cooking"
+      ],
+      "personality": [
+        "Optimistic",
+        "Reliable",
+        "Good communicator"
+      ],
+      "social_relationships": "Taylor has a spouse and two children. As a Doctor, Taylor has many professional colleagues. Taylor maintains a wide circle of friends."
+    },
+    "rounds": 21,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:06:19"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:23:30"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:42:02"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:02:49"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:12:31"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:38:38"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:04:40"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:22:40"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:42:10"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:46:52"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:57:28"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:26:04"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:29:20"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:33:40"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:00:10"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:11:04"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:21:34"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:24:12"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:49:03"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:14:52"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:34:35"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "character": {
+      "name": "Susan",
+      "occupation": "Artist",
+      "age": 48,
+      "gender": "Female",
+      "hobbies": [
+        "Cybersecurity",
+        "Sports",
+        "Keeping small animals",
+        "Academic research",
+        "Photography",
+        "Gardening"
+      ],
+      "personality": [
+        "Organized",
+        "Curious",
+        "Good communicator",
+        "Patient"
+      ],
+      "social_relationships": "Susan has a spouse and two children. As a Artist, Susan has many professional colleagues. Susan plays in a recreational sports league. Susan maintains a wide circle of friends."
+    },
+    "rounds": 4,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:46:19"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:48:14"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:52:04"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:08:29"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "character": {
+      "name": "Elizabeth",
+      "occupation": "Chef",
+      "age": 79,
+      "gender": "Female",
+      "hobbies": [
+        "Reading",
+        "Karaoke",
+        "Gardening",
+        "Keeping small animals"
+      ],
+      "personality": [
+        "Thoughtful",
+        "Organized",
+        "Creative",
+        "Curious"
+      ],
+      "social_relationships": "Elizabeth has a spouse and two children. As a Chef, Elizabeth has many professional colleagues."
+    },
+    "rounds": 12,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:53:34"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:17:07"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:21:28"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:48:57"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:55:32"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:23:11"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:25:49"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:50:51"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:13:37"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:29:05"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:56:06"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:14:22"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "character": {
+      "name": "John",
+      "occupation": "Engineer",
+      "age": 61,
+      "gender": "Male",
+      "hobbies": [
+        "Karaoke",
+        "Travel",
+        "Dancing",
+        "Academic research",
+        "Sports"
+      ],
+      "personality": [
+        "Organized",
+        "Thoughtful",
+        "Analytical",
+        "Creative"
+      ],
+      "social_relationships": "John has a spouse and two children. As a Engineer, John has many professional colleagues. John plays in a recreational sports league."
+    },
+    "rounds": 0,
+    "training_data": []
+  },
+  {
+    "id": 37,
+    "character": {
+      "name": "James",
+      "occupation": "Scientist",
+      "age": 21,
+      "gender": "Male",
+      "hobbies": [
+        "Keeping small animals",
+        "Sports",
+        "Gardening",
+        "Travel"
+      ],
+      "personality": [
+        "Empathetic",
+        "Curious",
+        "Adventurous",
+        "Analytical"
+      ],
+      "social_relationships": "As a Scientist, James has many professional colleagues. James plays in a recreational sports league."
+    },
+    "rounds": 13,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:09:39"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:32:32"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:59:03"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:06:37"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:36:27"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:00:30"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:24:15"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:45:55"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:07:07"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:25:45"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:28:24"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:49:16"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:05:11"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "character": {
+      "name": "Taylor",
+      "occupation": "Lawyer",
+      "age": 36,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Music",
+        "Gaming",
+        "Academic research"
+      ],
+      "personality": [
+        "Curious",
+        "Organized",
+        "Responsible",
+        "Analytical"
+      ],
+      "social_relationships": "Taylor has a spouse and two children. As a Lawyer, Taylor has many professional colleagues. Taylor is part of a local music group."
+    },
+    "rounds": 13,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:11:59"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:30:29"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:45:14"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:57:17"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:22:43"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:29:35"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:55:19"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:13:23"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:36:03"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:44:42"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:45:58"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:10:13"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:15:24"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "character": {
+      "name": "Patricia",
+      "occupation": "Doctor",
+      "age": 36,
+      "gender": "Female",
+      "hobbies": [
+        "Reading",
+        "Hiking",
+        "Music"
+      ],
+      "personality": [
+        "Reliable",
+        "Optimistic"
+      ],
+      "social_relationships": "Patricia has a spouse and two children. As a Doctor, Patricia has many professional colleagues. Patricia is part of a local music group."
+    },
+    "rounds": 9,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:05:26"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:32:43"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:51:30"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:56:22"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:03:54"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:18:23"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:38:36"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:49:05"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:10:20"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "character": {
+      "name": "Linda",
+      "occupation": "Engineer",
+      "age": 44,
+      "gender": "Female",
+      "hobbies": [
+        "Cooking",
+        "Dancing",
+        "Music",
+        "Cybersecurity",
+        "Sports"
+      ],
+      "personality": [
+        "Organized",
+        "Responsible"
+      ],
+      "social_relationships": "Linda has a spouse and two children. As a Engineer, Linda has many professional colleagues. Linda is part of a local music group. Linda plays in a recreational sports league."
+    },
+    "rounds": 4,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:53:57"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:20:21"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:23:30"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:29:05"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "character": {
+      "name": "Avery",
+      "occupation": "Musician",
+      "age": 45,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Photography",
+        "Travel",
+        "Painting",
+        "Music"
+      ],
+      "personality": [
+        "Thoughtful",
+        "Adventurous",
+        "Patient"
+      ],
+      "social_relationships": "Avery has a spouse and two children. As a Musician, Avery has many professional colleagues. Avery is part of a local music group."
+    },
+    "rounds": 8,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:55:47"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:03:45"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:25:45"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:44:46"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:01:47"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:03:33"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:26:08"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:40:35"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "character": {
+      "name": "Jennifer",
+      "occupation": "Artist",
+      "age": 20,
+      "gender": "Female",
+      "hobbies": [
+        "Music",
+        "Keeping small animals",
+        "Cybersecurity",
+        "Writing"
+      ],
+      "personality": [
+        "Optimistic",
+        "Patient",
+        "Organized"
+      ],
+      "social_relationships": "As a Artist, Jennifer has many professional colleagues. Jennifer is part of a local music group."
+    },
+    "rounds": 3,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:58:41"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:15:38"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:19:01"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "character": {
+      "name": "James",
+      "occupation": "Chef",
+      "age": 71,
+      "gender": "Male",
+      "hobbies": [
+        "Keeping small animals",
+        "Writing",
+        "Gardening"
+      ],
+      "personality": [
+        "Curious",
+        "Analytical"
+      ],
+      "social_relationships": "James has a spouse and two children. As a Chef, James has many professional colleagues."
+    },
+    "rounds": 15,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:59:08"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:07:12"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:33:57"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:47:58"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:49:33"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:02:59"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:23:52"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:36:16"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:02:05"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:27:37"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:39:26"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:41:04"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:00:27"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:04:41"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:08:30"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "character": {
+      "name": "Robert",
+      "occupation": "Musician",
+      "age": 53,
+      "gender": "Male",
+      "hobbies": [
+        "Hiking",
+        "Photography",
+        "Dancing"
+      ],
+      "personality": [
+        "Optimistic",
+        "Organized",
+        "Adventurous"
+      ],
+      "social_relationships": "Robert has a spouse and two children. As a Musician, Robert has many professional colleagues."
+    },
+    "rounds": 2,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:55:12"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:09:05"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "character": {
+      "name": "Linda",
+      "occupation": "Doctor",
+      "age": 47,
+      "gender": "Female",
+      "hobbies": [
+        "Gaming",
+        "Gardening",
+        "Academic research",
+        "Painting",
+        "Cybersecurity",
+        "Sports"
+      ],
+      "personality": [
+        "Curious",
+        "Empathetic",
+        "Patient",
+        "Organized"
+      ],
+      "social_relationships": "Linda has a spouse and two children. As a Doctor, Linda has many professional colleagues. Linda plays in a recreational sports league."
+    },
+    "rounds": 15,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:58:36"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:09:27"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:16:42"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:21:30"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:32:27"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:00:15"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:24:31"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:39:35"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:07:23"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:33:47"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:42:20"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:52:47"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:02:35"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:27:16"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:52:11"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "character": {
+      "name": "Alex",
+      "occupation": "Scientist",
+      "age": 20,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Travel",
+        "Hiking",
+        "Cooking",
+        "Reading",
+        "Keeping small animals",
+        "Painting"
+      ],
+      "personality": [
+        "Curious",
+        "Responsible"
+      ],
+      "social_relationships": "As a Scientist, Alex has many professional colleagues."
+    },
+    "rounds": 18,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 21:54:16"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:00:36"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:29:54"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:51:59"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:12:56"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:35:35"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:39:26"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:57:56"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:59:18"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:13:06"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:42:10"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:49:05"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:19:00"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:34:09"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:49:31"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:51:50"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:14:02"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:18:39"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "character": {
+      "name": "Jessica",
+      "occupation": "Scientist",
+      "age": 24,
+      "gender": "Female",
+      "hobbies": [
+        "Music",
+        "Gardening",
+        "Video reviews",
+        "Keeping small animals"
+      ],
+      "personality": [
+        "Thoughtful",
+        "Curious",
+        "Adventurous"
+      ],
+      "social_relationships": "As a Scientist, Jessica has many professional colleagues. Jessica is part of a local music group."
+    },
+    "rounds": 28,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:01:44"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:05:30"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:25:22"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:42:11"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:44:33"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:12:46"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:39:45"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:52:18"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:58:04"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:11:01"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:19:17"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:36:57"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:51:38"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:08:36"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:19:02"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:33:48"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:56:19"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:04:34"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:22:41"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:31:51"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:37:04"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:47:17"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm doing well, thank you for asking. How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:14:34"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:40:51"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! I'm always here to help."
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 03:57:08"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:07:56"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:22:56"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 04:39:20"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "character": {
+      "name": "Avery",
+      "occupation": "Chef",
+      "age": 53,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Painting",
+        "Karaoke",
+        "Reading",
+        "Sports"
+      ],
+      "personality": [
+        "Thoughtful",
+        "Good communicator"
+      ],
+      "social_relationships": "Avery has a spouse and two children. As a Chef, Avery has many professional colleagues. Avery plays in a recreational sports league. Avery maintains a wide circle of friends."
+    },
+    "rounds": 2,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:07:42"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:15:25"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "character": {
+      "name": "Riley",
+      "occupation": "Photographer",
+      "age": 26,
+      "gender": "Non-binary",
+      "hobbies": [
+        "Gaming",
+        "Writing",
+        "Video reviews",
+        "Karaoke",
+        "Reading",
+        "Gardening"
+      ],
+      "personality": [
+        "Thoughtful",
+        "Optimistic",
+        "Adventurous",
+        "Reliable"
+      ],
+      "social_relationships": "As a Photographer, Riley has many professional colleagues."
+    },
+    "rounds": 17,
+    "training_data": [
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:10:43"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:17:24"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:40:56"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:47:03"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 22:51:49"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:16:00"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite color?"
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:43:56"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds wonderful! I'm glad you had a good day."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Monday, September 04, 2006, 23:53:22"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:01:50"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have personal preferences, but I find all colors interesting."
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:09:57"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:19:13"
+      },
+      {
+        "role": "assistant",
+        "content": "I'll help you remember that. Would you like me to set a reminder?"
+      },
+      {
+        "role": "user",
+        "content": "I had a great day at work today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 00:47:10"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "I need to remember to buy groceries."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:12:15"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me what day it is?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:13:57"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's a beautiful day! Perfect for outdoor activities."
+      },
+      {
+        "role": "user",
+        "content": "Do you remember what we talked about yesterday?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:39:14"
+      },
+      {
+        "role": "assistant",
+        "content": "Today is Wednesday, July 16, 2025."
+      },
+      {
+        "role": "user",
+        "content": "The weather is nice today."
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 01:57:54"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodbye! Have a great day!"
+      },
+      {
+        "role": "user",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "observation",
+        "content": "Tuesday, September 05, 2006, 02:00:27"
+      },
+      {
+        "role": "assistant",
+        "content": "I remember our previous conversation about various topics."
+      }
+    ]
+  }
+]
